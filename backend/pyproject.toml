@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = ["kdenny25 <kelsead25@gmail.com>"]
+readme = "README.md"
+packages = [{include = "backend", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+quart = "^0.19.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

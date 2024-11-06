@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "create-react-app": "^5.0.1",
+    "flowbite-react": "^0.10.2"
+  }
+}
